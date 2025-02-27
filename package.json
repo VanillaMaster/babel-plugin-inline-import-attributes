@@ -7,7 +7,7 @@
         "type": "git",
         "url": "https://github.com/VanillaMaster/babel-plugin-inline-import-attributes.git"
     },
-	"name": "@vanilla/babel-inline-import-attributes",
+	"name": "@vanilla/babel-plugin-inline-import-attributes",
 	"version": "1.0.0",
     "private": true,
 	"type": "module",
