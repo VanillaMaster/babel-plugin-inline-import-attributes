@@ -78,7 +78,7 @@ function createDeclaration(api, namespaceIdentifier, defaultIdentifier, text) {
                                 api.types.objectExpression([
                                     api.types.objectProperty(
                                         api.types.identifier("value"),
-                                        api.types.stringLiteral(JSON.stringify(text).slice(1, -1))
+                                        api.types.stringLiteral(text)
                                     ),
                                     api.types.objectProperty(
                                         api.types.identifier("configurable"),
@@ -136,7 +136,7 @@ function createDeclaration(api, namespaceIdentifier, defaultIdentifier, text) {
         return api.types.variableDeclaration("const", [
             api.types.variableDeclarator(
                 api.types.identifier(defaultIdentifier),
-                api.types.stringLiteral(JSON.stringify(text).slice(1, -1))
+                api.types.stringLiteral(text)
             )
         ]);
     }
