@@ -1,0 +1,29 @@
+{
+	"author": {
+		"name": "vanilla",
+		"url": "https://github.com/VanillaMaster"
+	},
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/VanillaMaster/babel-plugin-inline-import-attributes.git"
+    },
+	"name": "@vanilla/babel-inline-import-attributes",
+	"version": "1.0.0",
+    "private": true,
+	"type": "module",
+	"exports": {
+		".": {
+			"import": "./src/index.js"
+		}
+	},
+	"files": [
+		"src/**/*"
+	],
+	"license": "ISC",
+	"dependencies": {
+		"import-meta-resolve": "^4.1.0"
+	},
+	"peerDependencies": {
+		"@babel/core": "^8.0.0-alpha.16"
+	}
+}
